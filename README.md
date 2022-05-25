@@ -57,7 +57,8 @@ Este proyecto comparte mucha similitud con el proyecto **clikalia-dep-api** ya q
 El hexágono es donde se encuentra nuestro código base, llamado **dominio** y cada uno de sus laterales es una interacción hacia un servicio externo, por ejemplo: servicios *http*
  de terceros, bases de datos, servicio de mensajería o renderización.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6c89fe0b-81a1-4a86-a67e-0ce67e870299/Untitled.png)
+![hexagonal domain](https://user-images.githubusercontent.com/102178716/170360840-bf974117-b031-4a4a-aced-6822003399ab.png)
+
 
 La comunicación del **dominio** con el resto de actores se realiza en una capa denominada **infraestructura** donde se encuentra la implementación específica para cada una de estas tecnologías.
 
