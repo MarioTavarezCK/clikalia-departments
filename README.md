@@ -1,6 +1,6 @@
 # Clikalia Departments Client
+![departments](https://user-images.githubusercontent.com/102178716/170360709-68ebfdd0-243d-4514-bfb8-ce1c5b75ab84.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a263b229-a8a0-4c31-8492-4a240aaa323b/Untitled.png)
 
 ### Descarga de dependencias
 
@@ -61,7 +61,8 @@ El hexágono es donde se encuentra nuestro código base, llamado **dominio** y 
 
 La comunicación del **dominio** con el resto de actores se realiza en una capa denominada **infraestructura** donde se encuentra la implementación específica para cada una de estas tecnologías.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/182954ee-5c68-4c63-955a-92a96e2eb0a4/Untitled.png)
+![hexagonal infraestructure](https://user-images.githubusercontent.com/102178716/170360609-e24ce431-eeeb-4c37-b8e7-59a8b44d70f7.png)
+
 
 -  **Puerto**: Es la interfaz que deberán implementar las distintas variantes de nuestro código para abstraerse de la tecnología. En ella se ha de definir la firma de los métodos que existirán.
 -  **Adaptador**: Es la implementación de la interfaz, en ella se generará el código específico para consumir una tecnología en concreto. Esta nunca se usará de forma directa en la aplicación, más allá de la declaración, ya que su uso se realizará a través del tipo del **puerto**.
