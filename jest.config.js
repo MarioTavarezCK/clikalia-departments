@@ -3,9 +3,9 @@ const { compilerOptions } = require('./tsconfig.json');
 
 module.exports = {
 	preset: 'ts-jest',
-	testEnvironment: 'node',
+	testEnvironment: 'jest-environment-jsdom',
 	roots: ['<rootDir>'],
-	modulePaths: ['<rootDir>'],
+	moduleDirectories: ['node_modules', '<rootDir>/'],
 	moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths),
 	testMatch: ['<rootDir>/src/**/*?(*.)+(spec|test).[jt]s?(x)'],
 };

@@ -25,6 +25,7 @@
     "react-hooks-useform": "^0.1.86"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.17.12",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@types/jest": "^27.5.1",
